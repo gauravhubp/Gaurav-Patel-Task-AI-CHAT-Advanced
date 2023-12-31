@@ -1,0 +1,122 @@
+.App{
+position: relative;
+position: fixed;
+width: 100%;
+height: 100vh;
+background-image: url("bg.png");
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+z-index: -2;
+}
+.w{
+z-index: -1;
+margin-left: 970px;
+}
+
+
+.chatbody{
+  float: left;
+}
+@media(max-width: 490px)
+{
+    .chatbody{
+        right: 0;
+        bottom: 0;
+        width: 100% !important; 
+        height: 40% !important;
+        margin-top: 170px !important;
+        border-radius: 0 ;
+    }
+    .dodocall{
+      padding: 20px 20px;
+      margin-left: 10px !important;
+      z-index: 1;
+    }
+}
+
+.cs-message-list{
+  border-radius: 3%;
+  padding: 20px;
+  background-color: #fff;
+}
+.cs-message-input{
+  padding: 10px 5px !important;
+  border-radius: 2%;
+ margin-top: 1px;
+}
+
+.dodo-h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(39, 85, 116);
+justify-content: center;
+text-align: center;
+font-size: 2rem;
+}
+
+.dodocall{
+  padding: 20px 20px;
+  margin-left: 60px;
+  z-index: 1;
+}
+
+a{ color:#fff; text-decoration: none;    font-size: 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
+.vdd{
+  margin-top: 30px !important;
+  background-color: rgb(209, 201, 201);
+  padding: 10px 2px;
+  border-radius: 5%;
+ 
+}
+.aii{
+  width: 450px;
+  border-radius: 5%;
+}
+
+.chatb{
+  size: 90px;
+}
+
+.cc{
+  width: 16%;
+  display: inline-block;
+  margin-left: 43px;
+ border-radius: 100%;
+}
+.cam{
+  width: 22%;
+  display: inline-block;
+  margin-left: 100px;
+ border-radius: 100%;
+ margin-bottom: 100px;
+}
+
+.pp{
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.vdd2{
+  margin-top: 25px !important;
+  height: 200px;
+  background-color: rgb(209, 201, 201);
+  margin-left: 5px;
+  border-radius: 5%;
+ 
+}
+
+.mess{
+  width: 780px;
+}
+
+.camera{
+  width: 600px;
+}
+.camera2{
+  width: 250px;
+  margin-left: 70px;
+}
