@@ -20,7 +20,7 @@ import cam from "./cam.png";
 import w from "./w.png";
 import { useSpeechSynthesis } from "react-speech-kit";
 
-const API_KEY = "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";
+const API_KEY = process.env.api_key;
 console.log(API_KEY);
 
 function App() {
